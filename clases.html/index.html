@@ -1,0 +1,241 @@
+<!-- <!DOCTYPE html>  --><!--decelarar el tipo de documento, indicando que es un archivo html5-->
+<!-- html lang="en"> --> <!--inicia el documento y establece el idioma de la pagina -->
+<!-- 
+<head> --><!-- contiene informacion meta y configuracion de la pagina , que no es visible para el usuario-->
+<!--  <meta charset="UTF-8" --><!--  especifica la codificacion de caracteres -->
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">configura el diseño responsivo  -->
+<!-- <link rel="stylesheet" href="style.css"> -->
+
+<!-- <title>curso de desarrollo web</title> titulo de la pagina -->
+<!-- fonts -->
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet"> -->
+<!-- </head>
+
+<body> -->
+<!-- 
+    <div>
+        <p> este es un parrafo dentro de un div</p>
+        <span>este es un span dentro de un div</span>
+    </div>
+    <footer>
+        <p> 2025 derechos reservados</p>
+    </footer>
+    <p class="parrafo">holaholaholahola</p>
+    <ul>
+        <h1 class="titulos">Lista de compras
+ -->
+<!--   </h1> --> <!-- desordenada -->
+<!--  <li><a href="http://127.0.0.1:5500/HTML/galeria.html" target="_blank"> galeria </a></li>
+        <li> leche </li>
+        <li> azucar </li>
+    </ul>
+
+    <ol  ordenada-->
+<!--    <li> cafe </li>
+        <li> leche </li>
+        <li> azucar </li>
+
+    </ol>
+
+    <a href="http://127.0.0.1:5500/HTML/index.html" target="_blank"> hjgfgfgf </a>
+    <img
+        src="https://preview.redd.it/jv4stl6clfm71.jpg?width=640&crop=smart&auto=webp&s=92597d2456d05bfe1e87b1ad0de012061527d285"><img
+        src="" alt="">
+ -->
+<!-- alt+shift+a comenta
+
+<-- Tablas | para organizarnos o para armar emails -->
+
+<!-- contenedoras de la tabla -->
+<!--  <tr> -->
+<!-- para poner mas encabezados  <th*3 (no funciona)  -->
+<!--   <th> nombre </th>
+            <th> edad </th>
+            <th> pais</th>
+        </tr> -->
+
+<!--  <tr> definen una fila -->
+<!--   <th>sofi </th> --><!--Los encabezados  -->
+<!-- <th> 16</th> --><!--Las celdas  -->
+<!--       <th>uruguay </th>
+        </tr>
+    </table> -->
+
+<!-- Formularios -->
+
+<!--  <form action="/submit" method="post"> --> <!-- Etiqueta contenedora -->
+<!-- <label for="">Nombre </label>
+        <input type="text" name="nombre" id="nombre">
+
+        <label for="Pasword">Contraseña</label>
+        <input type="password" name="Pasword" id="Pasword">
+
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id=" mensaje"></textarea>
+
+        <label for="genero">Género</label>
+        <input type="radio" name="" id="">
+        <label for="">Hombre</label>
+
+        <input type="radio" name="" id="">
+        <label for="">Mujer</label>
+
+        <input type="radio" name="" id="">
+        <label for="">Prefiero no decirlo</label>
+
+
+
+
+
+        <label for="" subscribete>Subscribirse:</label>
+        ><input type="checkbox" name="subscribete" id="subscribete">
+        </header>
+    </form>
+    <header>
+        <div class="logo">mi web</div>
+        <nav>
+            <a href=""></a><a href=""></a><a href=""></a>
+        </nav> -->
+<!--   <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+    </header>
+</body>
+
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Diseño Responsive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Media query para tabletas */
+        @media (min-width: 600px) {
+            body {
+                font-size: 18px;
+                padding: 20px;
+            }
+
+            .navbar {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+
+        /* Media query para computadoras de escritorio */
+        @media (min-width: 1024px) {
+            body {
+                font-size: 20px;
+                padding: 30px;
+            }
+
+            img {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Contacto</a>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1>Bienvenidos a nuestro sitio</h1>
+            <p>Este es un ejemplo de diseño responsive que se adapta a diferentes tamaños de pantalla.</p>
+        </div>
+        <img src="https://via.placeholder.com/800" alt="Ejemplo de imagen">
+    </div>
+</body>
+
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>areas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header"></header>
+        |<nav class="nav">navigation</nav>
+        <main class="main">main content</main>
+        <aside class="asside">sidebar</aside>
+        <footer class="footer">footer</footer>
+    </div>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css">
+</head>
+
+<body>
+
+</body>
+
+</html>

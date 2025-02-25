@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pagina principal */
+body {
+    background-color: #e1f9e3;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.tit {
+    font-family: "Lora", serif;
+
+    text-align: center;
+    font-size: 68px;
+    margin: 50px;
+    color: #f47ba3;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+
+
+li {
+    font-family: "Playfair Display", serif;
+    color: #f47ba3;
+    text-decoration-line: none;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-left: 49px;
+    display: inline;
+    text-decoration: none;
+
+}
+
+li:hover {
+    background-color: #b9f5be;
+}
+
+
+nav li a {
+    color: #f47ba3;
+    text-decoration-line: none;
+    text-align: center;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline;
+
+}
+
+
+footer {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    text-align: center;
+    color: hwb(317 0% 88%);
+    margin: 595px;
+}
+
+.uno {
+    font-family: "Paprika", serif;
+    font-style: italic;
+    text-align: center;
+    color: hwb(317 0% 88%);
+
+}
+
+.dos {
+    font-family: "Paprika", serif;
+    font-style: italic;
+    text-align: center;
+    color: hwb(317 0% 88%);
+
+}
+
+.tres {
+    font-family: "Paprika", serif;
+    font-style: italic;
+    text-align: center;
+    color: hwb(317 0% 88%);
+}
+
+.cuatro {
+    font-family: "Paprika", serif;
+    font-style: italic;
+    text-align: center;
+    color: hwb(317 0% 88%);
+
+}
+
+.cinco {
+    font-family: "Paprika", serif;
+    font-style: italic;
+    text-align: center;
+    color: hwb(317 0% 88%);
+}
+
+/* Registrarse*/
+form {
+    font-family: "Playfair Display", serif;
+    margin-top: 200px;
+    text-align: center;
+}
+
+/* Galeria */
+img {
+    background-color: #f47ba3;
+    height: 500px;
+    padding: 10px;
+    object-fit: contain;
+    /*   margin-left: 72px; */
+
+}
+
+/*Sobre nosotros */
+p {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: x-large;
+    margin: 77px;
+    margin-left: 22px;
+    margin-right: 22px;
+    color: #f16191;
+    margin-bottom: 100px;
+}
+
+.volver a {
+    font-family: "Playfair Display", serif;
+    color: #f47ba3;
+    text-decoration-line: none;
+    font-size: large;
+}
+
+
+/* trabajos */
+
+.trabajos {
+    text-align: center;
+
+
+}
+
+.contactos {
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+
+    /* Index */
+    body {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    li {
+        margin: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+    }
+
+    footer {
+        display: contents;
+    }
+
+    /* Galeria */
+    img {
+
+        margin-left: 5px;
+    }
+
+    /* Trabajo */
+    .trabajos li {
+        display: flex;
+        display: grid;
+    }
+
+    /* Volver al inicio */
+}
+
+
+/* Flex grow nos permite cambiar el ancho de la caja de manera flexible */
+
+/* (FLEX DIRECTION)row (valor por defecto): Los elementos se colocan en una fila horizontal.
+row-reverse: Los elementos se colocan en una fila horizontal en orden inverso.
+column: Los elementos se colocan en una columna vertical.
+column-reverse: Los elementos se colocan en una columna vertical en orden inverso.
+ justify-content  alinea los elementos flexibles a lo largo del eje principal del contenedor (horizontalmente en una fila, verticalmente en una columna).
+ */
+
+/* Grid */
+/*  justify-items: center alinea los ítems al centro horizontalmente dentro de sus celdas.
+
+align-items: start alinea los ítems al inicio verticalmente dentro de sus celdas.
+
+justify-content: space-between distribuye las columnas con espacio entre ellas.
+
+align-content: space-evenly distribuye las filas con espacio equitativo entre ellas. */
+
+/*  Estilos para dispositivos móviles 
+body {
+    font-size: 16px;
+    padding: 10px;
+}
+
+ Media query para tabletas 
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+Media query para computadoras de escritorio 
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        padding: 30px;
+    }
+} 
+    
+ Estilos para dispositivos móviles 
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ Media query para tabletas y computadoras de escritorio 
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+ Estilos para dispositivos móviles *
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+Media query para tabletas y computadoras de escritorio 
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+    
+/* Estilos para dispositivos móviles 
+img {
+    width: 100%;
+    height: auto;
+}
+Media query para computadoras de escritorio 
+@media (min-width: 1024px) {
+    img {
+        width: 50%;
+    }
+}
+----------------------------------------------------
+hover:cuando el usuuario pase por arriba con el mause se cambie
+el color focus: cuando un elemento (input
+active:cuando el usuario hace click sobre el elemento pasan cosas
+  
+-------------estado de los elementos-------------
+checked:cuando el check o el radio estan seleccionados
+disable: cuando un input esta deshabilitado
+enabled: cuando un input esta habilitado
+required: cuando el input es obligatorio
+
+-------------seleccion de elementos especificos-------------
+first-child:selecciona el primer hijo
+last-child selecciona el ultimo
+nth-child(n):selecciona al hijo por su posicion
+
+-------------metodologia BEM (block element, modifier)-------------
+bloque (Block): es un conteneedor independiente con
+una funcionalidad especifica ej;.boton.menu.tarjeta
+elemento(element): es una parte del bloque que no tiene 
+sentido por si solo y se representa con __
+ej; .boton__icono .menu__item .tarjeta__titulo
+
+modificador (modifier): se usa para cambiar la apariencia 
+o el comportamiento del elemento ej; .boton--grande .menu--item--activo
+--------------GIT-------------------
+para poder iniciar un repositorio en git usamos el comando git init
+en consola VS
+comandos------------
+git add miArchivoAsubir.algo |esto agrega un archivo en particular 
+
+git commit -m "Algo" |le pone nombre al archivo
+
+git status | sirve para ver el estado de mis archivos
+
+entrega--------
+5 html un solo css minimo por cada html un componente
+de boostrap usar nav , 2 html totalmente responsive entrega mediante github 
+repositorio y github pages , flex y grids tambien
+*/
