@@ -11,18 +11,30 @@
 
 <body>
     <header>
-        <h1 class="tit">Registrate</h1>
-        <p>Registrate o inicia sesion para recibir notificaciones</p>
-        <nav class="gmail">
-            <form action="/submit" method="post">
-                <label for="gmail">Ingrese su gmail</label>
-                <input type="text" name="Nombre" id="Nombre">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"><!-- si lo saco desaparece todo :p -->
+            <ul class="navbar-nav"><!-- es lo que hace que este en horizontal -->
+                <li>
+                    <a class="tit">
+                        <h1>Registrarse</h1>
+                    </a>
+                </li>
+                <li class="casa">
+                    <a href="index.html">Home</a>
+                </li>
+                <section class="texto3">
+                    <p>Registrate o inicia sesion para recibir notificaciones</p>
+                </section>
+                <nav class="gmaill">
+                    <form action="/submit" method="post">
+                        <label for="gmail">Ingrese su gmail</label>
+                        <input type="text" name="Nombre" id="Nombre">
 
-                <label for="Pasword">Ingrese contraseña</label>
-                <input type="password" name="Pasword" id="Pasword">
-        </nav>
-        <p>Si ya se registro aprete el boton de volver al inicio </p>
-        <nav class="volver"><a href="index.html">Volver al inicio</a></nav>
+                        <label for="Pasword">Ingrese contraseña</label>
+                        <input type="password" name="Pasword" id="Pasword">
+                </nav>
+                <section class="texto2">
+                    <p>Si ya se registro aprete el boton de Home</p>
+                </section>
     </header>
     <footer class="uno">
         Derechos reservados por sofi
