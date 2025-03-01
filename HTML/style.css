@@ -171,28 +171,13 @@ form {
 
 /* Contacto */
 
-
-.lugar {
-    flex-direction: column;
-    display: flex;
-    padding: 3px;
-    background-color: rgba(242, 234, 208, 1);
-    width: 300px;
-    height: 200px;
-}
-
-.lugar {
-    color: rgba(242, 234, 208, 1);
-    margin-top: 100px;
-}
-
 .iconos {
-    display: flex;
-    flex-direction: row;
-    margin-top: 80px;
-    margin-left: -400px;
-    width: 80px;
-    height: 80px;
+    font-size: 25px;
+    color: rgba(242, 234, 208, 1);
+    text-align: center;
+    text-decoration-line: none;
+    margin-top: 356px;
+    margin-left: 78px;
 }
 
 /* trabajos */
@@ -247,10 +232,12 @@ form {
         justify-content: space-evenly;
     }
 
-    h1 {
+    .tit {
         font-size: 50px;
         text-align: center;
+
     }
+
 
     li {
         margin: 60px;
@@ -265,18 +252,35 @@ form {
 
     /* Galeria */
     .carousel-item {
-
-        font-size: 200px;
-        /*      margin-left: 5px; */
+        margin-left: -100px;
+        width: 500px;
+        height: 600px;
     }
 
-    /* Trabajo */
-    .trabajos li {
+
+    .tit2 {
+        margin-left: 110px;
+    }
+
+    .casa {
+        margin-left: 160px;
+    }
+
+    /* registrarse */
+    .tit3 {
+        margin-left: 130px;
+
+    }
+
+    .texto3 {
+        margin-left: 130px;
+        margin-top: 20px;
         display: flex;
-        display: grid;
+        display: inline;
+        text-align: center;
     }
 
-    /* Volver al inicio */
+
 }
 
 
