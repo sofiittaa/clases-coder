@@ -1,23 +1,18 @@
-/*# sourceMappingURL=style.css.map */
 /* Pagina principal */
 body {
-
-  background: rgba(128, 18, 32, 1) !important;
-
+  background: rgb(128, 18, 32) !important;
 }
 
 .navbar {
-  background: rgba(128, 18, 32, 1) !important;
+  background: rgb(128, 18, 32) !important;
   /*  margin-bottom: 150px; */
 }
-
 
 .tit {
   margin-bottom: 5px;
   font-family: "Lora", serif;
   font-size: 50px;
-  color: rgba(242, 234, 208, 1);
-
+  color: rgb(242, 234, 208);
 }
 
 .tit2 {
@@ -25,32 +20,25 @@ body {
   margin-bottom: 5px;
   font-family: "Lora", serif;
   font-size: 50px;
-  color: rgba(242, 234, 208, 1);
-
+  color: rgb(242, 234, 208);
 }
-
 
 li {
   font-family: "Playfair Display", serif;
   font-size: 26px;
   margin-left: 50px;
-
 }
-
 
 nav li a {
-  color: rgba(242, 234, 208, 1);
+  color: rgb(242, 234, 208);
   text-decoration-line: none;
-
 }
-
-
 
 footer {
   font-family: "Paprika", serif;
   font-style: italic;
   text-align: center;
-  color: hwb(317 0% 88%);
+  color: hsl(317, 100%, 6%);
   margin: 700px;
 }
 
@@ -59,8 +47,7 @@ footer {
   font-family: "Paprika", serif;
   font-style: italic;
   text-align: center;
-  color: hwb(317 0% 88%);
-
+  color: hsl(317, 100%, 6%);
 }
 
 .dos {
@@ -68,8 +55,7 @@ footer {
   font-family: "Paprika", serif;
   font-style: italic;
   text-align: center;
-  color: hwb(317 0% 88%);
-
+  color: hsl(317, 100%, 6%);
 }
 
 .tres {
@@ -77,7 +63,7 @@ footer {
   font-family: "Paprika", serif;
   font-style: italic;
   text-align: center;
-  color: hwb(317 0% 88%);
+  color: hsl(317, 100%, 6%);
 }
 
 .cuatro {
@@ -85,8 +71,7 @@ footer {
   font-family: "Paprika", serif;
   font-style: italic;
   text-align: center;
-  color: hwb(317 0% 88%);
-
+  color: hsl(317, 100%, 6%);
 }
 
 .cinco {
@@ -94,7 +79,7 @@ footer {
   font-family: "Paprika", serif;
   font-style: italic;
   text-align: center;
-  color: hwb(317 0% 88%);
+  color: hsl(317, 100%, 6%);
 }
 
 /* Registrarse*/
@@ -102,7 +87,6 @@ form {
   font-family: "Playfair Display", serif;
   margin-top: 200px;
   text-align: center;
-
 }
 
 .texto2 {
@@ -110,7 +94,7 @@ form {
   font-size: x-large;
   margin-top: 650px;
   margin-left: -500px;
-  color: rgba(242, 234, 208, 1);
+  color: rgb(242, 234, 208);
 }
 
 .texto3 {
@@ -118,11 +102,11 @@ form {
   margin-left: -500px;
   font-size: x-large;
   margin: 200px;
-  color: rgba(242, 234, 208, 1);
+  color: rgb(242, 234, 208);
 }
 
 .gmaill {
-  color: rgba(242, 234, 208, 1);
+  color: rgb(242, 234, 208);
   margin-left: -799px;
   margin-bottom: 200px;
   display: inline;
@@ -134,7 +118,7 @@ form {
 
 /* Galeria */
 .img {
-  background-color: rgba(242, 234, 208, 1);
+  background-color: rgb(242, 234, 208);
   width: 450px;
   height: 600px;
   padding: 7px;
@@ -156,7 +140,6 @@ form {
   margin-top: 220px;
 }
 
-
 /*Sobre nosotros */
 .texto {
   text-align: center;
@@ -166,15 +149,14 @@ form {
   margin-top: 390px;
   margin-left: -200px;
   margin-right: 200px;
-  color: rgba(242, 234, 208, 1);
-
+  color: rgb(242, 234, 208);
 }
 
 /* Contacto */
-
 .iconos {
+  font-family: "Playfair Display", serif;
   font-size: 25px;
-  color: rgba(242, 234, 208, 1);
+  color: rgb(242, 234, 208);
   text-align: center;
   text-decoration-line: none;
   margin-top: 356px;
@@ -187,7 +169,7 @@ form {
   display: inline;
   width: 286px;
   text-align: center;
-  background-color: rgba(242, 234, 208, 1);
+  background-color: rgb(242, 234, 208);
   font-size: 16px;
 }
 
@@ -212,74 +194,139 @@ form {
 }
 
 .card-title {
-  color: rgba(242, 234, 208, 1);
+  color: rgb(242, 234, 208);
 }
 
 .card-text {
-  color: rgba(242, 234, 208, 1);
+  color: rgb(242, 234, 208);
 }
 
 .btn {
-  background-color: rgba(242, 234, 208, 1);
+  background-color: rgb(242, 234, 208);
   color: rgb(102, 3, 16);
 }
 
 /* Media queries */
-@media screen and (max-width:800px) {
-
+@media screen and (max-width: 800px) {
   /* Index */
   body {
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
   }
-
   .tit {
-    font-size: 50px;
+    margin-top: 20px;
+    font-size: 55px;
+    margin-left: 20px;
     text-align: center;
-
   }
-
-
-  li {
-    margin: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
+  nav li a {
+    font-size: 37px;
+    margin: 37px;
     display: flex;
   }
-
-  footer {
-    display: contents;
+  .indexx {
+    font-size: 20px;
+    margin-top: 78px;
+    margin-left: 170px;
+    display: table;
   }
-
+  /* Registrarse */
+  .tit3 {
+    font-size: 55px;
+    margin-left: 1px;
+  }
+  .casa-index {
+    font-size: 37px;
+    margin-left: 70px;
+    text-align: center;
+  }
+  .texto3 {
+    text-align: center;
+    margin-left: 30px;
+    display: inline;
+    margin-top: 1px;
+  }
+  .gmaill {
+    margin-top: -2000px;
+    margin-left: 2px;
+  }
+  .texto2 {
+    margin-top: 1px;
+    margin-left: 20px;
+  }
+  .casa-regi {
+    margin-top: -1px;
+    font-size: 37px;
+    margin-left: 80px;
+  }
+  .gmaill {
+    margin-top: 1px;
+    margin-left: 14px;
+  }
+  .uno {
+    margin-top: 60px;
+  }
   /* Galeria */
+  .tit2 {
+    font-size: 49px;
+    margin-left: -20px;
+  }
+  .casa-gal {
+    margin-top: x;
+    margin-left: 120px;
+  }
   .carousel-item {
-    margin-left: -100px;
+    margin-top: -120px;
+    margin-left: -99px;
     width: 500px;
     height: 600px;
   }
-
-
-  .tit2 {
-    margin-left: 110px;
+  .dos {
+    margin-top: 140px;
   }
-
-  .casa {
+  /* Sobre Nosotros */
+  .casa-nos {
+    margin-left: 120px;
+  }
+  .texto {
+    font-size: 23px;
+    display: inline;
+    margin-top: 1px;
+    margin-left: 150px;
+  }
+  .tres {
+    margin-top: 10px;
+  }
+  /* Contactos*/
+  .tit4 {
+    margin-left: -30px;
+    color: rgb(242, 234, 208);
+    font-size: 44px;
+    margin-bottom: -30px;
+  }
+  .casa-con {
+    margin-left: 120px;
+  }
+  .iconos {
+    font-size: 30px;
+    margin: 65px;
+  }
+  .cuatro {
+    margin-top: 60px;
     margin-left: 160px;
   }
-
-  /* registrarse */
-  .tit3 {
-    margin-left: 130px;
-
+  /* Tecnicas */
+  .tit5 {
+    margin-left: 40px;
+    font-size: 55px;
   }
-
-  .texto3 {
-    margin-left: 130px;
-    margin-top: 20px;
-    display: flex;
-    display: inline;
-    text-align: center;
+  .casa-tec {
+    margin-left: 120px;
+    margin-bottom: -120px;
   }
-
-
+  .card {
+    margin-left: 67px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
