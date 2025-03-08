@@ -1,30 +1,31 @@
+$fondo: rgba(128, 18, 32, 1);
+$letras: rgba(242, 234, 208, 1);
+$footer: hwb(317 0% 88%);
+$fo-letras: "Paprika", serif;
+$titulo: "Lora", serif;
+$tamaño: 50px;
+
 /* Pagina principal */
 body {
-
-    background: rgba(128, 18, 32, 1) !important;
-
+    background: $fondo;
 }
 
 .navbar {
-    background: rgba(128, 18, 32, 1) !important;
-    /*  margin-bottom: 150px; */
+    background: $fondo !important;
 }
 
 
 .tit {
-    margin-bottom: 5px;
-    font-family: "Lora", serif;
-    font-size: 50px;
-    color: rgba(242, 234, 208, 1);
+    font-family: $titulo;
+    font-size: $tamaño;
+    color: $letras;
 
 }
 
 .tit2 {
-    display: inline;
-    margin-bottom: 5px;
-    font-family: "Lora", serif;
-    font-size: 50px;
-    color: rgba(242, 234, 208, 1);
+    font-family: $titulo ;
+    font-size: $tamaño ;
+    color: $letras;
 
 }
 
@@ -32,98 +33,103 @@ body {
 li {
     font-family: "Playfair Display", serif;
     font-size: 26px;
-    margin-left: 50px;
+    margin-left: 80px;
+    margin-right: 20px;
 
 }
 
 
 nav li a {
-    color: rgba(242, 234, 208, 1);
+    color: $letras;
     text-decoration-line: none;
 
 }
 
 
 
-footer {
-    font-family: "Paprika", serif;
+.indexx {
+    font-family: $fo-letras;
     font-style: italic;
     text-align: center;
-    color: hwb(317 0% 88%);
-    margin: 700px;
+    color: $footer;
+    margin-top: 725px;
 }
 
+/* footer */
 .uno {
     margin: 88px;
-    font-family: "Paprika", serif;
+    font-family: $fo-letras;
     font-style: italic;
     text-align: center;
-    color: hwb(317 0% 88%);
+    color: $footer;
 
 }
 
 .dos {
     margin: 20px;
-    font-family: "Paprika", serif;
+    font-family: $fo-letras;
     font-style: italic;
     text-align: center;
-    color: hwb(317 0% 88%);
+    color: $footer;
 
 }
 
 .tres {
     margin: 152px;
-    font-family: "Paprika", serif;
+    font-family: $fo-letras;
     font-style: italic;
     text-align: center;
-    color: hwb(317 0% 88%);
+    color: $footer;
 }
 
 .cuatro {
     margin: 476px;
-    font-family: "Paprika", serif;
+    font-family: $fo-letras;
     font-style: italic;
     text-align: center;
-    color: hwb(317 0% 88%);
+    color: $footer;
 
 }
 
 .cinco {
     margin: 143px;
-    font-family: "Paprika", serif;
+    font-family: $fo-letras;
     font-style: italic;
     text-align: center;
-    color: hwb(317 0% 88%);
+    color: $footer;
 }
 
 /* Registrarse*/
-form {
-    font-family: "Playfair Display", serif;
-    margin-top: 200px;
-    text-align: center;
 
+.tit3 {
+    display: inline;
+    margin-bottom: 5px;
+    font-family: "Lora", serif;
+    font-size: 50px;
+    color: $letras;
 }
 
 .texto2 {
     font-family: "Playfair Display", serif;
     font-size: x-large;
     margin-top: 650px;
-    margin-left: -500px;
-    color: rgba(242, 234, 208, 1);
+    margin-left: -600px;
+    color: $letras;
 }
 
 .texto3 {
     font-family: "Playfair Display", serif;
-    margin-left: -500px;
+    margin-right: 10px;
     font-size: x-large;
     margin: 200px;
-    color: rgba(242, 234, 208, 1);
+    color: $letras;
 }
 
 .gmaill {
-    color: rgba(242, 234, 208, 1);
-    margin-left: -799px;
-    margin-bottom: 200px;
+    font-family: "Playfair Display", serif;
+    color: $letras;
+    margin-left: -200px;
+    margin-top: 200px;
     display: inline;
 }
 
@@ -131,19 +137,24 @@ form {
     margin-top: 200px;
 }
 
+.casa-regi {
+    margin-top: 18px;
+    font-size: 30px;
+}
+
 /* Galeria */
 .img {
-    background-color: rgba(242, 234, 208, 1);
+    background-color: $letras;
     width: 450px;
     height: 600px;
     padding: 7px;
     margin-top: 170px;
-    margin-left: 140px;
+    margin-left: 10px;
 }
 
-.casa {
-    font-size: 25px;
-    margin-top: 9px;
+.casa-gal {
+    font-size: 30px;
+    margin-top: 12px;
     margin-right: 30px;
 }
 
@@ -157,6 +168,12 @@ form {
 
 
 /*Sobre nosotros */
+.tit2 {
+    display: inline;
+    font-size: 20px;
+    font-size: 50px;
+}
+
 .texto {
     text-align: center;
     font-family: "Playfair Display", serif;
@@ -165,20 +182,35 @@ form {
     margin-top: 390px;
     margin-left: -200px;
     margin-right: 200px;
-    color: rgba(242, 234, 208, 1);
+    color: $letras;
 
 }
+
+.casa-nos {
+    margin-top: 7px;
+    font-size: 30px;
+}
+
 
 /* Contacto */
 
 .iconos {
     font-family: "Playfair Display", serif;
-    font-size: 25px;
-    color: rgba(242, 234, 208, 1);
+    font-size: 30px;
+    color: $letras;
     text-align: center;
     text-decoration-line: none;
     margin-top: 356px;
-    margin-left: 78px;
+    margin-left: 30px;
+}
+
+.tit4 {
+    color: $letras;
+}
+
+.casa-con {
+    margin-top: 7px;
+    font-size: 30px;
 }
 
 /* trabajos */
@@ -187,8 +219,13 @@ form {
     display: inline;
     width: 286px;
     text-align: center;
-    background-color: rgba(242, 234, 208, 1);
+    background-color: $letras;
     font-size: 16px;
+}
+
+.casa-tec {
+    font-size: 30px;
+    margin-top: 4px;
 }
 
 .contactos {
@@ -197,31 +234,41 @@ form {
     margin-left: 100px;
 }
 
+img {
+    border-radius: 10px;
+}
+
 .card {
+    box-shadow: inset 2px;
     display: inline;
-    margin-left: -210px;
+    margin-left: -20px;
+    margin-right: 60px;
     margin-top: 150px;
-    margin-right: 230px;
     height: 500px;
     text-align: center;
-    background-color: rgb(102, 3, 16);
+    background-color: rgb(100, 6, 19);
+    border-radius: 10px;
+
 }
 
 .card-body {
-    background: rgb(102, 3, 16);
+
+    background-color: rgb(100, 6, 19);
 }
 
 .card-title {
-    color: rgba(242, 234, 208, 1);
+    color: $letras;
 }
 
 .card-text {
-    color: rgba(242, 234, 208, 1);
+    color: $letras;
 }
 
 .btn {
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.1),
+        inset 0px -4px 8px rgba(0, 0, 0, 0.05);
     background-color: rgba(242, 234, 208, 1);
-    color: rgb(102, 3, 16);
+    color: $fondo;
 }
 
 /* Media queries */
@@ -247,6 +294,9 @@ form {
         display: flex;
     }
 
+
+
+
     .indexx {
         font-size: 20px;
         margin-top: 78px;
@@ -259,12 +309,6 @@ form {
     .tit3 {
         font-size: 55px;
         margin-left: 1px;
-    }
-
-    .casa-index {
-        font-size: 37px;
-        margin-left: 70px;
-        text-align: center;
     }
 
     .texto3 {
@@ -370,7 +414,7 @@ form {
 
     .casa-tec {
         margin-left: 120px;
-        margin-bottom: -120px;
+        margin-bottom: -100px;
     }
 
     .card {
