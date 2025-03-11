@@ -5,6 +5,13 @@ $fo-letras: "Paprika", serif;
 $titulo: "Lora", serif;
 $tamaño: 50px;
 
+@mixin foooter {
+    font-family: $fo-letras;
+    font-style: italic;
+    text-align: center;
+    color: $footer;
+}
+
 /* Pagina principal */
 body {
     background: $fondo;
@@ -13,6 +20,7 @@ body {
 .navbar {
     background: $fondo !important;
 }
+
 
 
 .tit {
@@ -45,7 +53,26 @@ nav li a {
 
 }
 
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
 
+    25% {
+        transform: translateX(1430px);
+    }
+
+
+
+}
+
+.uña {
+    margin-top: 300px;
+    animation: mover 20s infinite;
+    transform: scale 1;
+    background-color: $letras;
+
+}
 
 .indexx {
     font-family: $fo-letras;
@@ -58,45 +85,27 @@ nav li a {
 /* footer */
 .uno {
     margin: 88px;
-    font-family: $fo-letras;
-    font-style: italic;
-    text-align: center;
-    color: $footer;
-
+    @include foooter()
 }
 
 .dos {
     margin: 20px;
-    font-family: $fo-letras;
-    font-style: italic;
-    text-align: center;
-    color: $footer;
-
+    @include foooter()
 }
 
 .tres {
     margin: 152px;
-    font-family: $fo-letras;
-    font-style: italic;
-    text-align: center;
-    color: $footer;
+    @include foooter()
 }
 
 .cuatro {
     margin: 476px;
-    font-family: $fo-letras;
-    font-style: italic;
-    text-align: center;
-    color: $footer;
-
+    @include foooter()
 }
 
 .cinco {
     margin: 143px;
-    font-family: $fo-letras;
-    font-style: italic;
-    text-align: center;
-    color: $footer;
+    @include foooter()
 }
 
 /* Registrarse*/
@@ -119,7 +128,7 @@ nav li a {
 
 .texto3 {
     font-family: "Playfair Display", serif;
-    margin-right: 10px;
+    margin-right: -10px;
     font-size: x-large;
     margin: 200px;
     color: $letras;
@@ -170,7 +179,7 @@ nav li a {
 /*Sobre nosotros */
 .tit2 {
     display: inline;
-    font-size: 20px;
+
     font-size: 50px;
 }
 
@@ -283,24 +292,36 @@ img {
     .tit {
         margin-top: 20px;
         font-size: 55px;
-        margin-left: 20px;
+        margin-left: 25px;
         text-align: center;
 
     }
 
     nav li a {
         font-size: 37px;
-        margin: 37px;
+        margin: 45px;
         display: flex;
+        margin-left: 20px;
     }
 
+    @keyframes mover {
+        0% {
+            transform: translateY(0);
+        }
 
+        25% {
+            transform: translateY(600px);
+        }
+    }
 
+    .uña {
+        margin-top: -1160px;
+    }
 
     .indexx {
         font-size: 20px;
-        margin-top: 78px;
-        margin-left: 170px;
+        margin-top: 40px;
+        margin-left: 10px;
         display: table;
     }
 
@@ -315,7 +336,7 @@ img {
         text-align: center;
         margin-left: 30px;
         display: inline;
-        margin-top: 1px
+        margin-top: 10px
     }
 
     .gmaill {
@@ -325,12 +346,12 @@ img {
 
 
     .texto2 {
-        margin-top: 1px;
+        margin-top: 250px;
         margin-left: 20px;
     }
 
     .casa-regi {
-        margin-top: -1px;
+        margin-top: 5px;
         font-size: 37px;
         margin-left: 80px;
     }
@@ -346,37 +367,40 @@ img {
 
     /* Galeria */
     .tit2 {
-        font-size: 49px;
+        font-size: 45px;
         margin-left: -20px;
+        display: inline;
     }
 
     .casa-gal {
-        margin-top: x;
-        margin-left: 120px;
+        margin-top: -50px;
+        margin-left: 140px;
     }
 
     .carousel-item {
-        margin-top: -120px;
-        margin-left: -99px;
-        width: 500px;
-        height: 600px;
+        margin-top: -100px;
+        margin-left: -20px;
+        width: -200px;
+        height: -200px;
+        padding: 10px;
     }
 
     .dos {
-        margin-top: 140px;
+        margin-top: 160px;
     }
 
     /* Sobre Nosotros */
 
     .casa-nos {
         margin-left: 120px;
+        margin-top: -50px;
     }
 
     .texto {
         font-size: 23px;
         display: inline;
         margin-top: 1px;
-        margin-left: 150px;
+        margin-left: 140px;
     }
 
     .tres {
@@ -387,7 +411,7 @@ img {
     .tit4 {
         margin-left: -30px;
         color: rgba(242, 234, 208, 1);
-        font-size: 44px;
+        font-size: 40px;
         margin-bottom: -30px;
     }
 
@@ -408,13 +432,13 @@ img {
 
     /* Tecnicas */
     .tit5 {
-        margin-left: 40px;
+        margin-left: 10px;
         font-size: 55px;
     }
 
     .casa-tec {
         margin-left: 120px;
-        margin-bottom: -100px;
+        margin-top: -60px;
     }
 
     .card {

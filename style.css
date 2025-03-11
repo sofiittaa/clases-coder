@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Pagina principal */
 body {
   background: rgb(128, 18, 32);
@@ -29,6 +30,21 @@ li {
 nav li a {
   color: rgb(242, 234, 208);
   text-decoration-line: none;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(1430px);
+  }
+}
+.uña {
+  margin-top: 300px;
+  animation: mover 20s infinite;
+  transform: scale 1;
+  background-color: rgb(242, 234, 208);
 }
 
 .indexx {
@@ -99,7 +115,7 @@ nav li a {
 
 .texto3 {
   font-family: "Playfair Display", serif;
-  margin-right: 10px;
+  margin-right: -10px;
   font-size: x-large;
   margin: 200px;
   color: rgb(242, 234, 208);
@@ -149,7 +165,6 @@ nav li a {
 /*Sobre nosotros */
 .tit2 {
   display: inline;
-  font-size: 20px;
   font-size: 50px;
 }
 
@@ -254,18 +269,30 @@ img {
   .tit {
     margin-top: 20px;
     font-size: 55px;
-    margin-left: 20px;
+    margin-left: 25px;
     text-align: center;
   }
   nav li a {
     font-size: 37px;
-    margin: 37px;
+    margin: 45px;
     display: flex;
+    margin-left: 20px;
+  }
+  @keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(600px);
+    }
+  }
+  .uña {
+    margin-top: -1160px;
   }
   .indexx {
     font-size: 20px;
-    margin-top: 78px;
-    margin-left: 170px;
+    margin-top: 40px;
+    margin-left: 10px;
     display: table;
   }
   /* Registrarse */
@@ -277,18 +304,18 @@ img {
     text-align: center;
     margin-left: 30px;
     display: inline;
-    margin-top: 1px;
+    margin-top: 10px;
   }
   .gmaill {
     margin-top: -2000px;
     margin-left: 2px;
   }
   .texto2 {
-    margin-top: 1px;
+    margin-top: 250px;
     margin-left: 20px;
   }
   .casa-regi {
-    margin-top: -1px;
+    margin-top: 5px;
     font-size: 37px;
     margin-left: 80px;
   }
@@ -301,31 +328,34 @@ img {
   }
   /* Galeria */
   .tit2 {
-    font-size: 49px;
+    font-size: 45px;
     margin-left: -20px;
+    display: inline;
   }
   .casa-gal {
-    margin-top: x;
-    margin-left: 120px;
+    margin-top: -50px;
+    margin-left: 140px;
   }
   .carousel-item {
-    margin-top: -120px;
-    margin-left: -99px;
-    width: 500px;
-    height: 600px;
+    margin-top: -100px;
+    margin-left: -20px;
+    width: -200px;
+    height: -200px;
+    padding: 10px;
   }
   .dos {
-    margin-top: 140px;
+    margin-top: 160px;
   }
   /* Sobre Nosotros */
   .casa-nos {
     margin-left: 120px;
+    margin-top: -50px;
   }
   .texto {
     font-size: 23px;
     display: inline;
     margin-top: 1px;
-    margin-left: 150px;
+    margin-left: 140px;
   }
   .tres {
     margin-top: 10px;
@@ -334,7 +364,7 @@ img {
   .tit4 {
     margin-left: -30px;
     color: rgb(242, 234, 208);
-    font-size: 44px;
+    font-size: 40px;
     margin-bottom: -30px;
   }
   .casa-con {
@@ -350,12 +380,12 @@ img {
   }
   /* Tecnicas */
   .tit5 {
-    margin-left: 40px;
+    margin-left: 10px;
     font-size: 55px;
   }
   .casa-tec {
     margin-left: 120px;
-    margin-bottom: -100px;
+    margin-top: -60px;
   }
   .card {
     margin-left: 67px;
