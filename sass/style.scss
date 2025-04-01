@@ -1,0 +1,13 @@
+$fondo: rgba(128, 18, 32, 1);
+$letras: rgba(242, 234, 208, 1);
+$footer: hwb(317 0% 88%);
+$fo-letras: "Paprika", serif;
+$titulo: "Lora", serif;
+$tamano: 50px;
+
+@mixin foooter {
+    font-family: $fo-letras;
+    font-style: italic;
+    text-align: center;
+    color: $footer;
+}

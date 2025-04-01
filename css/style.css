@@ -1,0 +1,610 @@
+@charset "UTF-8";
+
+/* Pagina principal */
+body {
+  background: rgb(128, 18, 32);
+}
+
+.navbar {
+  background: rgb(128, 18, 32) !important;
+}
+
+.tit {
+
+  font-family: "Lora", serif;
+  font-size: 50px;
+  color: rgb(242, 234, 208);
+}
+
+
+.tit3 {
+  margin-top: 15px;
+  margin-left: 20px;
+  color: rgb(242, 234, 208);
+  font-family: "Parisienne", cursive;
+}
+
+li {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  margin-left: 20px;
+  margin-right: 80px;
+}
+
+nav li a {
+  color: rgb(242, 234, 208);
+  text-decoration-line: none;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateX(100vw);
+
+  }
+
+  100% {
+    transform: translateX(-100%);
+
+  }
+}
+
+.ofertas {
+  width: 250px;
+  margin-top: 80px;
+  margin-left: 10px;
+  animation: mover 8s linear infinite;
+
+}
+
+
+
+.navbar-toggler {
+  background-color: rgba(70, 0, 9, 0.801);
+  margin-right: 20px;
+}
+
+
+
+/* footer */
+.indexx {
+  font-family: "Paprika", serif;
+  font-style: italic;
+  text-align: center;
+  color: hsl(317, 100%, 6%);
+  margin-top: 725px;
+}
+
+
+.uno {
+  margin-top: 85px;
+  font-family: "Paprika", serif;
+  font-style: italic;
+  text-align: center;
+  color: hsl(317, 100%, 6%);
+}
+
+
+
+.tres {
+  margin: 108px;
+  font-family: "Paprika", serif;
+  font-style: italic;
+  text-align: center;
+  color: hsl(317, 100%, 6%);
+}
+
+.cuatro {
+  margin: 1px;
+  font-family: "Paprika", serif;
+  font-style: italic;
+  text-align: center;
+  color: hsl(317, 100%, 6%);
+}
+
+.cinco {
+  margin: 240px;
+  font-family: "Paprika", serif;
+  font-style: italic;
+  text-align: center;
+  color: hsl(317, 100%, 6%);
+}
+
+.seis {
+  margin-top: 65px;
+  font-family: "Paprika", serif;
+  font-style: italic;
+  text-align: center;
+  color: hsl(317, 100%, 6%);
+}
+
+/* Descuento*/
+
+.bton {
+  background-color: rgb(242, 234, 208);
+  color: rgb(128, 18, 32);
+  border-radius: 10px;
+  border: 20px;
+  margin-left: 689px;
+  margin-top: 110px;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.descuento {
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 480px;
+  background-color: rgb(242, 234, 208);
+  padding: 10px;
+  border-radius: 1px;
+}
+
+.modal {
+  background-color: rgba(239, 227, 191, 0.775);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  font-size: x-large;
+  margin-bottom: -200px;
+  font-family: "Playfair Display", serif;
+}
+
+.OFF {
+  font-family: "Playfair Display", serif;
+  margin-top: -60px;
+  margin-bottom: 250px;
+  font-size: xx-large;
+  color: rgb(128, 18, 32);
+}
+
+.comprar {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  background-color: rgb(251, 251, 251);
+  border-radius: 3px;
+  border-color: gray;
+  padding: 2px;
+  text-decoration-line: none;
+  color: rgb(128, 18, 32);
+  text-align: center;
+  flex-direction: column;
+  margin-top: 250px;
+
+}
+
+.cerrar {
+  color: rgb(128, 18, 32);
+  font-size: 50px;
+  margin-left: -1450px;
+}
+
+.gmaill {
+  font-family: "Playfair Display", serif;
+  color: rgb(242, 234, 208);
+  margin-left: 20px;
+  margin-top: 200px;
+  display: inline;
+}
+
+
+/*Sobre nosotros */
+
+.texto {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  margin: 159px;
+  margin-top: 97px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: rgb(242, 234, 208);
+  margin-bottom: 120px;
+}
+
+.ellas {
+  width: 300px;
+  height: 220px;
+  display: inline;
+  margin-left: 35px;
+}
+
+.aby {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 130px;
+}
+
+.cami {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 100px;
+}
+
+.juli {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 120px;
+}
+
+.mary {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 120px;
+}
+
+
+.sofi {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 110px;
+}
+
+.ady {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 120px;
+}
+
+.noso {
+  margin-left: 70px;
+}
+
+.casa-nos {
+  margin-top: 7px;
+  font-size: 30px;
+}
+
+/* Contacto */
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.maps {
+  margin-top: 100px;
+  margin-inline-end: 80px;
+  width: 1000px;
+  background-color: rgb(242, 234, 208);
+  padding: 7px;
+  border-radius: 10%;
+}
+
+
+.contactarnos {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  margin: 20px;
+  margin-top: 90px;
+
+}
+
+
+
+.contacto-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.iconos {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  gap: 125px;
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+
+}
+
+.imagem {
+  display: block;
+  width: 100px;
+  margin: 20px;
+}
+
+/* Tecnicas */
+
+img {
+  border-radius: 10px;
+}
+
+.card {
+  margin-top: 140px;
+  text-align: center;
+  background-color: rgb(100, 6, 19);
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 286px;
+  height: 300px;
+}
+
+.card-body {
+  font-family: "Playfair Display", serif;
+  background-color: rgb(100, 6, 19);
+}
+
+.card-title {
+  font-family: "Playfair Display", serif;
+  color: rgb(242, 234, 208);
+}
+
+.card-text {
+  font-family: "Playfair Display", serif;
+  color: rgb(242, 234, 208);
+}
+
+.btn {
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.1), inset 0px -4px 8px rgba(0, 0, 0, 0.05);
+  background-color: rgb(242, 234, 208);
+  color: rgb(128, 18, 32);
+  align-self: center;
+}
+
+.btn:hover {
+  background-color: rgb(171, 167, 167);
+
+}
+
+
+
+/* Comprar*/
+.tit7 {
+  font-family: "Playfair Display", serif;
+  color: rgb(242, 234, 208);
+  margin-left: -140px;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-label {
+  margin-top: 60px;
+}
+
+.Credito {
+  font-family: "Playfair Display", serif;
+  color: rgb(242, 234, 208);
+  margin-left: 30px;
+  margin: 20px;
+  font-size: 20px;
+  margin-right: 600px;
+}
+
+.form-check-label {
+  margin-bottom: 40px;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.tar {
+  width: 600px;
+  height: 100px;
+  margin-top: 250px;
+  margin-left: -400px;
+
+}
+
+
+.tit2 {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  color: rgb(242, 234, 208);
+  margin-top: 100px;
+  margin-right: -120px;
+
+}
+
+.tipos {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  color: rgb(242, 234, 208);
+  margin-top: 190px;
+
+}
+
+.ftoBank {
+  width: 130px;
+  height: 100px;
+  margin-top: 500px;
+  margin-right: 300px;
+  margin-left: -200px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.bank {
+  margin-top: 430px;
+  margin-left: -345px;
+  font-family: "Lora", serif;
+  color: rgb(242, 234, 208);
+}
+
+.btnn {
+  background-color: rgb(242, 234, 208);
+  color: rgb(128, 18, 32);
+  border-radius: 7px;
+  border: 1px;
+  margin-top: 20px;
+}
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+
+  /* Index */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tit {
+    margin-top: 5px;
+    font-size: 45px;
+    margin-left: 25px;
+    text-align: center;
+  }
+
+
+
+
+  @keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+
+    25% {
+      transform: translateY(600px);
+    }
+  }
+
+  .uña {
+    margin-top: -1160px;
+  }
+
+  .indexx {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: table;
+  }
+
+  /* Descuento */
+
+
+  .gmaill {
+    margin-top: -2000px;
+    margin-left: 2px;
+  }
+
+
+  .casa-regi {
+    margin-top: 5px;
+    font-size: 37px;
+    margin-left: 80px;
+  }
+
+  .gmaill {
+    margin-top: 1px;
+    margin-left: 14px;
+  }
+
+  .descuento {
+    width: 400px;
+  }
+
+  .uno {
+    margin-top: 60px;
+  }
+
+  .navbar-toggler {
+    margin-left: 356px;
+    margin-top: 10px;
+  }
+
+  /* Galeria */
+  .tit2 {
+    font-size: 45px;
+    margin-left: -20px;
+    display: inline;
+  }
+
+  .casa-gal {
+    margin-top: -50px;
+    margin-left: 140px;
+  }
+
+  .carousel-item {
+    margin-top: -100px;
+    margin-left: -20px;
+    width: -200px;
+    height: -200px;
+    padding: 10px;
+  }
+
+  .dos {
+    margin-top: 160px;
+  }
+
+  /* Sobre Nosotros */
+
+  .texto {
+    font-size: 15px;
+    display: inline;
+    margin-left: -200px;
+
+  }
+
+
+  /* Contactos*/
+  .tit4 {
+    margin-left: -30px;
+    color: rgb(242, 234, 208);
+    font-size: 40px;
+    margin-bottom: -30px;
+  }
+
+  .casa-con {
+    margin-left: 120px;
+  }
+
+  .iconos {
+    font-size: 30px;
+    margin: 65px;
+  }
+
+  .cuatro {
+    margin-top: 60px;
+    margin-left: 160px;
+  }
+
+  /* Tecnicas */
+  .tit5 {
+    margin-left: 10px;
+    font-size: 55px;
+  }
+
+  .casa-tec {
+    margin-left: 120px;
+    margin-top: -60px;
+  }
+
+  .card {
+    margin-left: 67px;
+  }
+
+
+}
+
+/*# sourceMappingURL=style.css.map */

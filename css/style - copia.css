@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* Pagina principal */
 body {
   background: rgb(128, 18, 32);
@@ -9,6 +10,7 @@ body {
 }
 
 .tit {
+
   font-family: "Lora", serif;
   font-size: 50px;
   color: rgb(242, 234, 208);
@@ -16,18 +18,24 @@ body {
 
 .tit2 {
   font-family: "Lora", serif;
-  font-size: 50px;
+  font-size: 44px;
   color: rgb(242, 234, 208);
+  margin-right: 14px;
 }
 
 li {
   font-family: "Playfair Display", serif;
   font-size: 26px;
-  margin-left: 80px;
-  margin-right: 20px;
+  /*  margin-left: 20px; */
+  margin-right: 80px;
 }
 
 nav li a {
+  color: rgb(242, 234, 208);
+  text-decoration-line: none;
+}
+
+.casa-index {
   color: rgb(242, 234, 208);
   text-decoration-line: none;
 }
@@ -36,15 +44,19 @@ nav li a {
   0% {
     transform: translateX(0);
   }
+
   25% {
     transform: translateX(1430px);
   }
 }
+
 .uña {
+  animation-iteration-count: infinite;
   margin-top: 300px;
   animation: mover 20s infinite;
   transform: scale 1;
   background-color: rgb(242, 234, 208);
+  animation-timing-function: ease
 }
 
 .indexx {
@@ -57,7 +69,7 @@ nav li a {
 
 /* footer */
 .uno {
-  margin: 88px;
+  margin-top: 105px;
   font-family: "Paprika", serif;
   font-style: italic;
   text-align: center;
@@ -65,7 +77,7 @@ nav li a {
 }
 
 .dos {
-  margin: 20px;
+  margin: 100px;
   font-family: "Paprika", serif;
   font-style: italic;
   text-align: center;
@@ -73,7 +85,7 @@ nav li a {
 }
 
 .tres {
-  margin: 152px;
+  margin: 108px;
   font-family: "Paprika", serif;
   font-style: italic;
   text-align: center;
@@ -81,7 +93,7 @@ nav li a {
 }
 
 .cuatro {
-  margin: 476px;
+  margin: 1px;
   font-family: "Paprika", serif;
   font-style: italic;
   text-align: center;
@@ -105,26 +117,71 @@ nav li a {
   color: rgb(242, 234, 208);
 }
 
-.texto2 {
+.bton {
+  background-color: rgb(242, 234, 208);
+  color: rgb(128, 18, 32);
+  border-radius: 10px;
+  border: 20px;
+  margin-left: 689px;
+  margin-top: 110px;
+  font-size: 20px;
   font-family: "Playfair Display", serif;
-  font-size: x-large;
-  margin-top: 650px;
-  margin-left: -600px;
-  color: rgb(242, 234, 208);
 }
 
-.texto3 {
-  font-family: "Playfair Display", serif;
-  margin-right: -10px;
+.descuento {
+  margin-left: 20px;
+  width: 480px;
+  background-color: rgb(242, 234, 208);
+  padding: 10px;
+  border-radius: 1px;
+}
+
+.modal {
+  background-color: rgba(239, 227, 191, 0.775);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
   font-size: x-large;
-  margin: 200px;
-  color: rgb(242, 234, 208);
+  margin-bottom: -200px;
+  font-family: "Playfair Display", serif;
+}
+
+.OFF {
+  font-family: "Playfair Display", serif;
+  margin-top: -60px;
+  margin-bottom: 250px;
+  font-size: xx-large;
+  color: rgb(128, 18, 32);
+}
+
+.comprar {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  background-color: rgb(251, 251, 251);
+  border-radius: 3px;
+  border-color: gray;
+  padding: 2px;
+  text-decoration-line: none;
+  color: rgb(128, 18, 32);
+  text-align: center;
+  flex-direction: column;
+  margin-top: 250px;
+
+}
+
+.cerrar {
+  color: rgb(128, 18, 32);
+  font-size: 50px;
+  margin-left: -1450px;
 }
 
 .gmaill {
   font-family: "Playfair Display", serif;
   color: rgb(242, 234, 208);
-  margin-left: -200px;
+  margin-left: 20px;
   margin-top: 200px;
   display: inline;
 }
@@ -133,50 +190,127 @@ nav li a {
   margin-top: 200px;
 }
 
-.casa-regi {
-  margin-top: 18px;
-  font-size: 30px;
-}
+
 
 /* Galeria */
 .img {
   background-color: rgb(242, 234, 208);
   width: 450px;
+  margin-top: 10px;
   height: 600px;
-  padding: 7px;
-  margin-top: 170px;
-  margin-left: 10px;
+  padding: 8px;
+  margin-left: 500px;
 }
 
-.casa-gal {
-  font-size: 30px;
-  margin-top: 12px;
-  margin-right: 30px;
+.txt {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1px;
+
 }
 
-.carousel-control-prev-icon {
-  margin-top: 220px;
+
+.tit22 {
+
+  margin-top: 100px;
+  margin: 20px;
+  margin-left: 60px;
+  font-family: "Lora", serif;
+  color: rgb(242, 234, 208);
 }
 
-.carousel-control-next-icon {
-  margin-top: 220px;
+.precio {
+  margin-top: -50px;
+  margin: 7px;
+  margin-left: 60px;
+  color: rgb(242, 234, 208);
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+
+}
+
+.tamano {
+  margin-top: 20px;
+  margin: 1px;
+  font-size: 20px;
+  margin-left: 60px;
+  color: rgb(242, 234, 208);
+  font-family: "Playfair Display", serif;
+
 }
 
 /*Sobre nosotros */
-.tit2 {
-  display: inline;
-  font-size: 50px;
-}
 
 .texto {
   text-align: center;
   font-family: "Playfair Display", serif;
   font-size: x-large;
   margin: 159px;
-  margin-top: 390px;
-  margin-left: -200px;
+  margin-top: 20px;
+  margin-left: 200px;
   margin-right: 200px;
   color: rgb(242, 234, 208);
+  margin-bottom: 120px;
+}
+
+.ellas {
+  width: 300px;
+  height: 220px;
+  display: inline;
+  margin-left: 35px;
+}
+
+.aby {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 130px;
+}
+
+.cami {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 100px;
+}
+
+.juli {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 120px;
+}
+
+.mary {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 120px;
+}
+
+
+.sofi {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 110px;
+}
+
+.ady {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+  display: inline;
+  margin-left: 120px;
+}
+
+.noso {
+  margin-left: 70px;
 }
 
 .casa-nos {
@@ -185,26 +319,69 @@ nav li a {
 }
 
 /* Contacto */
-.iconos {
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.maps {
+  margin-top: 35px;
+  margin-inline-end: 80px;
+  width: 1000px;
+  background-color: rgb(242, 234, 208);
+  padding: 7px;
+  border-radius: 10%;
+}
+
+
+.contactarnos {
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: x-large;
   color: rgb(242, 234, 208);
-  text-align: center;
-  text-decoration-line: none;
-  margin-top: 356px;
-  margin-left: 30px;
+  margin: 20px;
+
 }
 
 .tit4 {
   color: rgb(242, 234, 208);
+  font-family: "Lora", serif;
+  font-size: 40px;
+
 }
 
-.casa-con {
-  margin-top: 7px;
-  font-size: 30px;
+.contacto-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
 }
 
-/* trabajos */
+.iconos {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  gap: 125px;
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  color: rgb(242, 234, 208);
+
+}
+
+.imagem {
+  display: block;
+  width: 100px;
+  margin: 20px;
+}
+
+/* Tecnicas */
 .tra {
   height: 290px;
   display: inline;
@@ -219,37 +396,36 @@ nav li a {
   margin-top: 4px;
 }
 
-.contactos {
-  display: inline;
-  text-align: center;
-  margin-left: 100px;
+.tit5 {
+  font-family: "Lora", serif;
+  font-size: 50px;
+  color: rgb(242, 234, 208);
 }
+
 
 img {
   border-radius: 10px;
 }
 
 .card {
-  box-shadow: inset 2px;
-  display: inline;
-  margin-left: -20px;
-  margin-right: 60px;
-  margin-top: 150px;
-  height: 500px;
+  margin-left: 2px;
   text-align: center;
   background-color: rgb(100, 6, 19);
-  border-radius: 10px;
+
 }
 
 .card-body {
+  font-family: "Playfair Display", serif;
   background-color: rgb(100, 6, 19);
 }
 
 .card-title {
+  font-family: "Playfair Display", serif;
   color: rgb(242, 234, 208);
 }
 
 .card-text {
+  font-family: "Playfair Display", serif;
   color: rgb(242, 234, 208);
 }
 
@@ -259,83 +435,117 @@ img {
   color: rgb(128, 18, 32);
 }
 
+.btn:hover {
+  background-color: rgb(171, 167, 167);
+
+}
+
+/* Comprar */
+
+.tit6 {
+  font-family: "Lora", serif;
+  font-size: 43px;
+  color: rgb(242, 234, 208);
+}
+
+.creditCard {
+  font-family: "Lora", serif;
+}
+
 /* Media queries */
 @media screen and (max-width: 800px) {
+
   /* Index */
   body {
     display: flex;
     flex-direction: column;
   }
+
   .tit {
     margin-top: 20px;
     font-size: 55px;
     margin-left: 25px;
     text-align: center;
   }
+
   nav li a {
     font-size: 37px;
     margin: 45px;
     display: flex;
     margin-left: 20px;
   }
+
   @keyframes mover {
     0% {
       transform: translateY(0);
     }
+
     25% {
       transform: translateY(600px);
     }
   }
+
   .uña {
     margin-top: -1160px;
   }
+
   .indexx {
     font-size: 20px;
     margin-top: 40px;
     margin-left: 10px;
     display: table;
   }
+
   /* Registrarse */
   .tit3 {
     font-size: 55px;
     margin-left: 1px;
   }
+
   .texto3 {
     text-align: center;
     margin-left: 30px;
     display: inline;
     margin-top: 10px;
   }
+
   .gmaill {
     margin-top: -2000px;
     margin-left: 2px;
   }
+
   .texto2 {
     margin-top: 250px;
     margin-left: 20px;
   }
+
   .casa-regi {
     margin-top: 5px;
     font-size: 37px;
     margin-left: 80px;
   }
+
   .gmaill {
     margin-top: 1px;
     margin-left: 14px;
   }
+
   .uno {
     margin-top: 60px;
   }
+
   /* Galeria */
   .tit2 {
     font-size: 45px;
     margin-left: -20px;
     display: inline;
   }
+
   .casa-gal {
     margin-top: -50px;
     margin-left: 140px;
   }
+
   .carousel-item {
     margin-top: -100px;
     margin-left: -20px;
@@ -343,23 +553,28 @@ img {
     height: -200px;
     padding: 10px;
   }
+
   .dos {
     margin-top: 160px;
   }
+
   /* Sobre Nosotros */
   .casa-nos {
     margin-left: 120px;
     margin-top: -50px;
   }
+
   .texto {
     font-size: 23px;
     display: inline;
     margin-top: 1px;
     margin-left: 140px;
   }
+
   .tres {
     margin-top: 10px;
   }
+
   /* Contactos*/
   .tit4 {
     margin-left: -30px;
@@ -367,29 +582,37 @@ img {
     font-size: 40px;
     margin-bottom: -30px;
   }
+
   .casa-con {
     margin-left: 120px;
   }
+
   .iconos {
     font-size: 30px;
     margin: 65px;
   }
+
   .cuatro {
     margin-top: 60px;
     margin-left: 160px;
   }
+
   /* Tecnicas */
   .tit5 {
     margin-left: 10px;
     font-size: 55px;
   }
+
   .casa-tec {
     margin-left: 120px;
     margin-top: -60px;
   }
+
   .card {
     margin-left: 67px;
   }
+
+
 }
 
 /*# sourceMappingURL=style.css.map */
