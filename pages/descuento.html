@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <h1 class="tit">Descuento</h1>
+                <h1 class="tit3">Descuento</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                     aria-label="Toggle navigation">
@@ -55,7 +55,7 @@
         </div>
 
 
-        <button class="bton" onclick="abrirModal()">Obten 25% OFF</button>
+        <button class="boton" onclick="abrirModal()">Obten 25% OFF</button>
 
 
         <div class="cerrar" id="overlay" onclick="cerrarModal()"></div>
@@ -65,13 +65,15 @@
 
             <span class="cerrar" onclick="cerrarModal()">&times;</span>
             <p class="OFF">Registrese para obtener 25% OFF en su proxima compra.</p>
-            <form id="registroForm">
-                <input type="text" name="nombre" placeholder="Nombre completo" required>
-                <input type="email" name="email" placeholder="Correo electrónico" required>
-                <input type="password" name="password" placeholder="Contraseña" required minlength="6">
-                <button type="submit">Listo</button>
+            <form class="registroo" id="registroForm">
+                <input class="nombre" type="text" name="nombre" placeholder="Nombre completo" required>
+                <input class="correo" type="email" name="email" placeholder="Correo electrónico" required>
+                <input class="contraseña" type="password" name="password" placeholder="Contraseña" required
+                    minlength="6">
+
             </form>
-            <button class="comprar"><a class="comprar" href="../pages/tecnicas.html">Comprar con descuento </a></button>
+            <button class="btonn" type="submit">Listo</button>
+            <button class="bton"><a class="comprar" href="../pages/tecnicas.html">Comprar con descuento </a></button>
             <script>
                 function abrirModal() {
                     document.getElementById("modal").style.display = "block";

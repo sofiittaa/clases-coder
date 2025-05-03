@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" con c tent="width=device-width, initial-scale=1.0">
     <meta name="description" content="Agenda tu cita con nosotros ">
     <meta name="keywords" content="Uñas,salon de belleza,pestañas">
     <title>Estetica de uñas</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="style.scss">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
@@ -22,7 +22,9 @@
         <nav class="navbar navbar-dark bg-primary fixed-top">
             <div class="container-fluid">
                 <h1 class="tit">Estetica de uñas</h1>
-                <h2 class="tit3">Cada vez que se nos rompe una uña se rompe una parte de nuestro Corazon</h2>
+                <p class="equipo">Se parte de nuestro equipo.Envianos tu curriculum</p>
+                <input class="fotos" type="file" id="uploadImage" accept="image/*">
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                     aria-label="Toggle navigation">
@@ -56,11 +58,95 @@
                                 </ul>
                     </div>
                 </div>
+            </div>
         </nav>
-        <section class="ofertas">
-            <img class="ofertas" src="/img/oferta.png" alt="">
-            <img class="ofertas" src="/img/snake.png" alt="">
-        </section>
+
+
+
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img cl src="https://i.pinimg.com/736x/d4/5f/52/d45f52c0474dffc6392d8b7fae607923.jpg" class="imagen"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="press">Uñitas press on ✨</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/474x/6e/cb/09/6ecb099907c05eabf5e177427e87c435.jpg" class="imagen"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="press">Uñitas press on ✨</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/474x/99/c6/bc/99c6bc3a0da0ec22b9f6a903716d0f76.jpg" class=" imagen"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <p class="press">Uñitas press on ✨</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/474x/c9/de/ae/c9deae7a6212453f7da42b8384e0ea5f.jpg" class="imagen"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <p class="press">Uñitas press on ✨</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/474x/11/89/9b/11899b8a9289be54fdaa2702d09a38b0.jpg" class="imagen"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <p class="press">Uñitas press on ✨</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/474x/2f/a0/60/2fa060350c0f57ece06440cb57313f06.jpg" class="imagen"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <p>Uñitas press on ✨</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <script>
+            document.getElementById("uploadImage").addEventListener("change", function (event) {
+                const file = event.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        const preview = document.getElementById("preview");
+                        preview.src = e.target.result;
+                        preview.style.display = "block";
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
             crossorigin="anonymous"></script>

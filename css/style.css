@@ -2,26 +2,22 @@
 
 /* Pagina principal */
 body {
-  background: rgb(128, 18, 32);
+  background-color: rgb(128, 18, 32);
 }
 
 .navbar {
-  background: rgb(128, 18, 32) !important;
+  background-color: rgb(128, 18, 32) !important;
+}
+
+.container-fluid {
+  margin-top: -20px;
 }
 
 .tit {
-
+  margin-top: 20px;
+  color: rgb(242, 234, 208);
   font-family: "Lora", serif;
   font-size: 50px;
-  color: rgb(242, 234, 208);
-}
-
-
-.tit3 {
-  margin-top: 15px;
-  margin-left: 20px;
-  color: rgb(242, 234, 208);
-  font-family: "Parisienne", cursive;
 }
 
 li {
@@ -31,101 +27,145 @@ li {
   margin-right: 80px;
 }
 
-nav li a {
+.equipo {
   color: rgb(242, 234, 208);
-  text-decoration-line: none;
+  font-family: "Playfair Display", serif;
+  margin-top: 10px;
+  font-size: x-large;
+  margin-left: -250px;
 }
 
-@keyframes mover {
-  0% {
-    transform: translateX(100vw);
-
-  }
-
-  100% {
-    transform: translateX(-100%);
-
-  }
-}
-
-.ofertas {
-  width: 250px;
+.fotos {
+  color: rgb(242, 234, 208);
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
   margin-top: 80px;
-  margin-left: 10px;
-  animation: mover 8s linear infinite;
-
+  margin-left: -880px;
 }
 
+.press {
+  margin-left: 200px;
+  margin-top: -20px;
+  color: rgb(242, 234, 208);
+}
 
+.foto {
+  margin-left: -850px;
+  margin-top: 300px;
+}
+
+.tit3 {
+  margin-top: 15px;
+  color: rgb(242, 234, 208);
+  font-family: "Lora", serif;
+  font-size: 50px;
+}
 
 .navbar-toggler {
-  background-color: rgba(70, 0, 9, 0.801);
+  background-color: rgb(128, 18, 32);
   margin-right: 20px;
 }
 
+.imagen {
+  width: 600px;
+  height: 500px;
+  margin-top: 100px;
+}
 
+.carousel-item {
+  margin-left: 450px;
+  margin-top: 100px;
+  width: 400px;
+}
+
+.carousel-control-prev {
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.carousel-control-next {
+  margin-top: 200px;
+  margin-right: 200px;
+}
 
 /* footer */
 .indexx {
-  font-family: "Paprika", serif;
-  font-style: italic;
-  text-align: center;
   color: hsl(317, 100%, 6%);
-  margin-top: 725px;
+  font-style: "Paprika", serif;
+  text-align: center;
+  margin-top: 80px;
 }
-
 
 .uno {
-  margin-top: 85px;
-  font-family: "Paprika", serif;
-  font-style: italic;
-  text-align: center;
   color: hsl(317, 100%, 6%);
+  font-style: "Paprika", serif;
+  text-align: center;
+  margin-top: 80px;
 }
-
-
 
 .tres {
   margin: 108px;
-  font-family: "Paprika", serif;
-  font-style: italic;
-  text-align: center;
   color: hsl(317, 100%, 6%);
+  font-style: "Paprika", serif;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .cuatro {
-  margin: 1px;
-  font-family: "Paprika", serif;
-  font-style: italic;
-  text-align: center;
+  margin: 100px;
   color: hsl(317, 100%, 6%);
+  font-style: "Paprika", serif;
+  text-align: center;
+  margin-top: 80px;
 }
 
 .cinco {
   margin: 240px;
-  font-family: "Paprika", serif;
-  font-style: italic;
-  text-align: center;
   color: hsl(317, 100%, 6%);
+  font-style: "Paprika", serif;
+  text-align: center;
+  margin-top: 235px;
 }
 
 .seis {
   margin-top: 65px;
-  font-family: "Paprika", serif;
-  font-style: italic;
-  text-align: center;
   color: hsl(317, 100%, 6%);
+  font-style: "Paprika", serif;
+  text-align: center;
+  margin-top: 10px;
 }
 
 /* Descuento*/
-
-.bton {
+.boton {
   background-color: rgb(242, 234, 208);
   color: rgb(128, 18, 32);
   border-radius: 10px;
   border: 20px;
   margin-left: 689px;
   margin-top: 110px;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.bton {
+  background-color: rgb(242, 234, 208);
+  color: rgb(128, 18, 32);
+  border-radius: 10px;
+  border: 20px;
+  margin-left: 5px;
+  margin-top: 110px;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+
+.btonn {
+  background-color: rgb(242, 234, 208);
+  color: rgb(128, 18, 32);
+  border-radius: 10px;
+  border: 20px;
+  margin-left: 100px;
+  margin-top: 260px;
   font-size: 20px;
   font-family: "Playfair Display", serif;
 }
@@ -155,7 +195,7 @@ nav li a {
 .OFF {
   font-family: "Playfair Display", serif;
   margin-top: -60px;
-  margin-bottom: 250px;
+  margin-bottom: 300px;
   font-size: xx-large;
   color: rgb(128, 18, 32);
 }
@@ -172,7 +212,6 @@ nav li a {
   text-align: center;
   flex-direction: column;
   margin-top: 250px;
-
 }
 
 .cerrar {
@@ -181,17 +220,15 @@ nav li a {
   margin-left: -1450px;
 }
 
-.gmaill {
+.registro {
   font-family: "Playfair Display", serif;
   color: rgb(242, 234, 208);
-  margin-left: 20px;
+
   margin-top: 200px;
   display: inline;
 }
 
-
 /*Sobre nosotros */
-
 .texto {
   text-align: center;
   font-family: "Playfair Display", serif;
@@ -204,10 +241,17 @@ nav li a {
   margin-bottom: 120px;
 }
 
+.tit4 {
+  font-size: 40px;
+  margin-top: 20px;
+  color: rgb(242, 234, 208);
+  font-family: "Lora", serif;
+}
+
 .ellas {
   width: 300px;
   height: 220px;
-  display: inline;
+  display: flex;
   margin-left: 35px;
 }
 
@@ -216,7 +260,8 @@ nav li a {
   font-size: x-large;
   color: rgb(242, 234, 208);
   display: inline;
-  margin-left: 130px;
+  margin-top: -50px;
+  margin-left: -140px;
 }
 
 .cami {
@@ -224,7 +269,8 @@ nav li a {
   font-size: x-large;
   color: rgb(242, 234, 208);
   display: inline;
-  margin-left: 100px;
+  margin-top: -50px;
+  margin-left: -140px;
 }
 
 .juli {
@@ -232,7 +278,8 @@ nav li a {
   font-size: x-large;
   color: rgb(242, 234, 208);
   display: inline;
-  margin-left: 120px;
+  margin-top: -50px;
+  margin-left: -140px;
 }
 
 .mary {
@@ -240,24 +287,26 @@ nav li a {
   font-size: x-large;
   color: rgb(242, 234, 208);
   display: inline;
-  margin-left: 120px;
+  margin-top: -50px;
+  margin-left: -140px;
 }
-
 
 .sofi {
   font-family: "Playfair Display", serif;
   font-size: x-large;
   color: rgb(242, 234, 208);
   display: inline;
-  margin-left: 110px;
+  margin-top: -50px;
+  margin-left: -140px;
 }
 
-.ady {
+.vale {
   font-family: "Playfair Display", serif;
   font-size: x-large;
   color: rgb(242, 234, 208);
   display: inline;
-  margin-left: 120px;
+  margin-top: -50px;
+  margin-left: -140px;
 }
 
 .noso {
@@ -270,11 +319,9 @@ nav li a {
 }
 
 /* Contacto */
-
 .contenedor {
   display: flex;
   flex-direction: row;
-
 }
 
 .maps {
@@ -286,23 +333,18 @@ nav li a {
   border-radius: 10%;
 }
 
-
 .contactarnos {
   font-family: "Playfair Display", serif;
   font-size: x-large;
   color: rgb(242, 234, 208);
   margin: 20px;
   margin-top: 90px;
-
 }
-
-
 
 .contacto-container {
   display: flex;
   align-items: center;
   gap: 40px;
-
 }
 
 .iconos {
@@ -319,7 +361,6 @@ nav li a {
   font-family: "Playfair Display", serif;
   font-size: x-large;
   color: rgb(242, 234, 208);
-
 }
 
 .imagem {
@@ -329,7 +370,6 @@ nav li a {
 }
 
 /* Tecnicas */
-
 img {
   border-radius: 10px;
 }
@@ -337,7 +377,7 @@ img {
 .card {
   margin-top: 140px;
   text-align: center;
-  background-color: rgb(100, 6, 19);
+  background-color: rgb(128, 18, 32);
   width: 18rem;
   display: flex;
   flex-direction: column;
@@ -350,7 +390,7 @@ img {
 
 .card-body {
   font-family: "Playfair Display", serif;
-  background-color: rgb(100, 6, 19);
+  background-color: rgb(107, 12, 24);
 }
 
 .card-title {
@@ -370,20 +410,7 @@ img {
   align-self: center;
 }
 
-.btn:hover {
-  background-color: rgb(171, 167, 167);
-
-}
-
-
-
 /* Comprar*/
-.tit7 {
-  font-family: "Playfair Display", serif;
-  color: rgb(242, 234, 208);
-  margin-left: -140px;
-}
-
 .todo {
   display: flex;
   flex-direction: row;
@@ -413,25 +440,21 @@ img {
   height: 100px;
   margin-top: 250px;
   margin-left: -400px;
-
 }
-
 
 .tit2 {
   font-family: "Lora", serif;
   font-size: 40px;
   color: rgb(242, 234, 208);
-  margin-top: 100px;
+  margin-top: 80px;
   margin-right: -120px;
-
 }
 
 .tipos {
   font-family: "Lora", serif;
   font-size: 20px;
   color: rgb(242, 234, 208);
-  margin-top: 190px;
-
+  margin-top: 170px;
 }
 
 .ftoBank {
@@ -442,7 +465,6 @@ img {
   margin-left: -200px;
   display: flex;
   flex-direction: row;
-
 }
 
 .bank {
@@ -453,158 +475,279 @@ img {
 }
 
 .btnn {
-  background-color: rgb(242, 234, 208);
-  color: rgb(128, 18, 32);
+
+  color: fonod;
   border-radius: 7px;
   border: 1px;
   margin-top: 20px;
 }
 
-/* Media queries */
-@media screen and (max-width: 800px) {
+.comprar {
+  background-color: rgb(242, 234, 208);
+  ;
+}
+
+/* Media queries  */
+@media screen and (max-width: 900px) {
 
   /* Index */
   body {
     display: flex;
     flex-direction: column;
-  }
-
-  .tit {
-    margin-top: 5px;
-    font-size: 45px;
-    margin-left: 25px;
     text-align: center;
   }
 
-
-
-
-  @keyframes mover {
-    0% {
-      transform: translateY(0);
-    }
-
-    25% {
-      transform: translateY(600px);
-    }
+  .tit {
+    margin-left: 50px;
+    font-size: 40px;
   }
 
-  .uña {
-    margin-top: -1160px;
+  .fotos {
+    font-size: 18px;
+    margin-left: -5px;
+    margin-top: -20px;
   }
 
-  .indexx {
-    font-size: 20px;
-    margin-top: 40px;
-    margin-left: 10px;
-    display: table;
+  .equipo {
+    margin-left: 3px;
   }
 
-  /* Descuento */
-
-
-  .gmaill {
-    margin-top: -2000px;
-    margin-left: 2px;
-  }
-
-
-  .casa-regi {
-    margin-top: 5px;
-    font-size: 37px;
-    margin-left: 80px;
-  }
-
-  .gmaill {
-    margin-top: 1px;
-    margin-left: 14px;
-  }
-
-  .descuento {
-    width: 400px;
-  }
-
-  .uno {
-    margin-top: 60px;
-  }
-
-  .navbar-toggler {
-    margin-left: 356px;
-    margin-top: 10px;
-  }
-
-  /* Galeria */
-  .tit2 {
-    font-size: 45px;
-    margin-left: -20px;
-    display: inline;
-  }
-
-  .casa-gal {
-    margin-top: -50px;
-    margin-left: 140px;
+  .imagen {
+    width: 300px;
+    height: 300px;
   }
 
   .carousel-item {
-    margin-top: -100px;
+    margin-left: auto;
+    margin-top: 200px;
+  }
+
+  .carousel-control-prev {
+    margin-top: 350px;
+    margin-left: 5px;
+  }
+
+  .carousel-control-next {
+    margin-right: 10px;
+    margin-top: 340px;
+  }
+
+  .indexx {
+    margin-top: 180px;
+  }
+
+  /* Descuento */
+  .descuento {
+    width: 300px;
+    margin-left: 1px;
+    margin-top: 90px;
+  }
+
+  .boton {
+    margin-left: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .btonn {
+    margin-top: 40px;
     margin-left: -20px;
-    width: -200px;
-    height: -200px;
-    padding: 10px;
   }
 
-  .dos {
-    margin-top: 160px;
+  .bton {
+    margin-top: 250px;
   }
 
-  /* Sobre Nosotros */
+  .navbar-toggler {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
 
+  .comprar {
+    margin-right: 10px;
+  }
+
+  .OFF {
+    font-size: 25px;
+    margin-top: -60px;
+    margin-bottom: 190px;
+  }
+
+  .nombre {
+    margin-top: 200px;
+    margin: 20px;
+  }
+
+  .correo {
+    margin: 20px;
+  }
+
+  .contraseña {
+    margin: 20px;
+  }
+
+  /* Sobre Nosotras */
   .texto {
-    font-size: 15px;
-    display: inline;
-    margin-left: -200px;
-
+    font-size: 17px;
+    margin: 10px;
+    margin-top: 100px;
   }
 
+  .tit4 {
+    margin-left: 10px;
+    font-size: 40px;
+    margin-bottom: -10px;
+  }
+
+  .ellas {
+    width: 130px;
+    height: 130px;
+    display: table;
+    margin-left: 70px;
+  }
+
+  .ellass {
+    margin-left: 25px;
+    width: 130px;
+    height: 130px;
+  }
+
+  .aby {
+    width: 100px;
+    margin-left: 100px;
+  }
+
+  .cami {
+    margin-left: 100px;
+  }
+
+  .juli {
+    margin-left: 100px;
+  }
+
+  .mary {
+    margin-left: 110px;
+  }
+
+  .sofi {
+    margin-left: 110px;
+  }
+
+  .vale {
+    margin-left: 110px;
+  }
 
   /* Contactos*/
-  .tit4 {
-    margin-left: -30px;
-    color: rgb(242, 234, 208);
-    font-size: 40px;
-    margin-bottom: -30px;
-  }
+  .contactarnos {
+    font-size: 17px;
+    text-overflow: var(20);
+    margin-left: 100px;
 
-  .casa-con {
-    margin-left: 120px;
   }
 
   .iconos {
-    font-size: 30px;
-    margin: 65px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .imagem {
+    width: 50px;
+  }
+
+  .dato1 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .dato2 {
+    margin-top: -40px;
+    font-size: 14px;
+  }
+
+  .dato3 {
+    margin-top: -50px;
+    font-size: 14px;
+  }
+
+  .dato4 {
+    margin-top: -50px;
+    font-size: 14px;
+  }
+
+  .maps {
+    margin-top: 750px;
+    margin-left: -240px;
   }
 
   .cuatro {
-    margin-top: 60px;
-    margin-left: 160px;
+    margin-top: 20px;
   }
 
   /* Tecnicas */
-  .tit5 {
-    margin-left: 10px;
-    font-size: 55px;
-  }
-
-  .casa-tec {
-    margin-left: 120px;
-    margin-top: -60px;
+  .cinco {
+    margin-left: 150px;
+    margin-top: 150px;
   }
 
   .card {
-    margin-left: 67px;
+    margin-left: 70px;
+    margin-top: 70px;
+    width: 220px;
   }
 
+  .card img {
+    width: 220px;
+    height: 200px;
+  }
 
+  .contactarnos {
+    text-align: center;
+  }
+
+  /* Comprar */
+  .Credito {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .tit7 {
+    font-size: 20px;
+    margin-right: 922px;
+    margin-top: 90px;
+  }
+
+  .seis {
+    margin-left: -80px;
+  }
+
+  .tipos {
+    margin-top: 920px;
+    margin-left: -600px;
+  }
+
+  .tar {
+    width: 300px;
+    height: 100px;
+    margin-top: 980px;
+    margin-left: 310px;
+  }
+
+  .tit2 {
+    margin-left: -920px;
+    margin-top: 860px;
+  }
+
+  .ftoBank {
+    margin-top: 1000px;
+    margin-left: -900px;
+  }
+
+  .bank {
+    margin-top: 930px;
+    margin-left: -1250px;
+  }
 }
+
 
 /*# sourceMappingURL=style.css.map */

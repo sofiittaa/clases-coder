@@ -4,10 +4,565 @@ $footer: hwb(317 0% 88%);
 $fo-letras: "Paprika", serif;
 $titulo: "Lora", serif;
 $tamano: 50px;
+$textos: "Playfair Display", serif;
+$tmn-grande: x-large;
 
-@mixin foooter {
-    font-family: $fo-letras;
-    font-style: italic;
-    text-align: center;
-    color: $footer;
+
+/* Pagina principal */
+body {
+    background-color: $fondo;
 }
+
+.navbar {
+    background-color: $fondo !important;
+}
+
+.tit {
+    color: $letras;
+    font-family: $titulo;
+    font-size: $tamano;
+}
+
+li {
+    font-family: $textos;
+
+}
+
+.equipo {
+    color: $letras;
+    font-family: $textos;
+
+    font-size: $tmn-grande;
+
+}
+
+.fotos {
+    color: $letras;
+    font-family: $textos;
+
+
+}
+
+.press {
+
+    color: $letras;
+}
+
+.tit3 {
+    color: $letras;
+    font-family: $titulo;
+    font-size: $tamano;
+}
+
+.navbar-toggler {
+    background-color: $fondo;
+
+}
+
+/* footer */
+
+.indexx {
+    color: $footer;
+    font-style: $fo-letras;
+
+}
+
+.uno {
+    color: $footer;
+    font-style: $fo-letras;
+
+}
+
+.tres {
+
+    color: $footer;
+    font-style: $fo-letras;
+
+}
+
+.cuatro {
+
+    color: $footer;
+    font-style: $fo-letras;
+}
+
+.cinco {
+
+    color: $footer;
+    font-style: $fo-letras;
+}
+
+.seis {
+
+    color: $footer;
+    font-style: $fo-letras;
+
+}
+
+/* Descuento*/
+
+.bton {
+    background-color: $letras;
+    color: $fondo;
+    font-family: $textos;
+}
+
+.btonn {
+    background-color: $letras;
+    color: $fondo;
+    font-family: $textos;
+}
+
+
+.descuento {
+
+    background-color: $letras;
+}
+
+.modal {
+    font-size: $tmn-grande;
+    font-family: $textos;
+}
+
+.OFF {
+    font-family: $textos;
+    color: $fondo;
+}
+
+.comprar {
+    font-size: 28px;
+    font-family: $textos;
+    background-color: rgb(251, 251, 251);
+    color: $fondo;
+
+
+}
+
+.cerrar {
+    color: $fondo;
+}
+
+.gmaill {
+    font-family: $textos;
+    color: $letras;
+}
+
+
+/*Sobre nosotros */
+
+.texto {
+    font-family: $textos;
+    font-size: $tmn-grande;
+    color: $letras;
+
+}
+
+
+.tit4 {
+
+    color: $letras;
+    font-family: $titulo ;
+}
+
+
+.aby {
+    font-family: $textos;
+    font-size: $tmn-grande;
+    color: $letras;
+
+
+}
+
+.cami {
+    font-family: $textos;
+    font-size: $tmn-grande;
+    color: $letras;
+
+}
+
+.juli {
+    font-family: $textos;
+    font-size: $tmn-grande;
+    color: $letras;
+
+}
+
+.mary {
+    font-family: $textos;
+    font-size: $tmn-grande;
+    color: $letras;
+
+}
+
+
+.sofi {
+    font-family: $textos;
+    font-size: $tmn-grande;
+    color: $letras;
+
+}
+
+.vale {
+    font-family: $textos;
+    font-size: $tmn-grande;
+    color: $letras;
+}
+
+.noso {
+    margin-left: 70px;
+}
+
+.casa-nos {
+    margin-top: 7px;
+    font-size: 30px;
+}
+
+/* Contacto */
+
+.maps {
+    background-color: $letras;
+
+}
+
+
+.contactarnos {
+    font-family: $textos;
+    font-size: $tmn-grande;
+    color: $letras;
+
+
+}
+
+.datos {
+    font-family: $textos;
+    font-size: $tmn-grande;
+    color: $letras;
+
+}
+
+
+/* Tecnicas */
+
+.card {
+    background-color: $fondo;
+
+}
+
+
+
+.card-body {
+    font-family: $textos;
+    background-color: $fondo;
+}
+
+.card-title {
+    font-family: $textos;
+    color: $letras;
+}
+
+.card-text {
+    font-family: $textos;
+    color: $letras;
+}
+
+.btn {
+    background-color: $letras;
+    color: $fondo;
+
+}
+
+/* Comprar*/
+
+
+
+
+.Credito {
+    font-family: $textos;
+    color: $letras;
+}
+
+
+
+
+.tit2 {
+    font-family: $titulo;
+    color: $letras;
+
+}
+
+.tipos {
+    font-family: $titulo;
+    color: $textos;
+}
+
+.bank {
+    font-family: $titulo;
+    color: $letras;
+}
+
+.btnn {
+    background-color: $letras;
+    color: $fondo;
+}
+
+/* Media queries  */
+@media screen and (max-width: 900px) {
+
+    /* Index */
+    body {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .tit {
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+    .fotos {
+        font-size: 18px;
+        margin-left: -5px;
+        margin-top: -20px;
+    }
+
+    .equipo {
+        margin-left: 3px;
+    }
+
+    .imagen {
+        width: 300px;
+        height: 300px;
+    }
+
+    .carousel-item {
+        margin-left: auto;
+        margin-top: 200px;
+    }
+
+    .carousel-control-prev {
+        margin-top: 350px;
+        margin-left: 5px;
+    }
+
+    .carousel-control-next {
+        margin-right: 10px;
+        margin-top: 340px;
+    }
+
+    .indexx {
+        margin-top: 180px;
+    }
+
+    /* Descuento */
+    .descuento {
+
+        width: 300px;
+        margin-left: 1px;
+        margin-top: 90px;
+    }
+
+
+    .bton {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+
+    .navbar-toggler {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .OFF {
+        font-size: 25px;
+        margin-top: -60px;
+    }
+
+    .nombre {
+        margin: 20px;
+
+    }
+
+    .correo {
+        margin: 20px;
+    }
+
+    .contraseña {
+        margin: 20px;
+    }
+
+
+    /* Sobre Nosotras */
+
+    .texto {
+        font-size: 17px;
+        margin: 10px;
+        margin-top: 100px;
+
+    }
+
+    .tit4 {
+        margin-left: 10px;
+        font-size: 40px;
+        margin-bottom: -10px;
+    }
+
+    .ellas {
+        width: 130px;
+        height: 130px;
+        display: table;
+        margin-left: 70px;
+
+    }
+
+    .ellass {
+        margin-left: 25px;
+        width: 130px;
+        height: 130px;
+    }
+
+    .aby {
+        width: 100px;
+
+        margin-left: 100px;
+    }
+
+    .cami {
+        margin-left: 100px;
+    }
+
+    .juli {
+        margin-left: 100px;
+    }
+
+    .mary {
+        margin-left: 110px;
+    }
+
+    .sofi {
+        margin-left: 110px;
+    }
+
+    .vale {
+        margin-left: 110px;
+    }
+
+    /* Contactos*/
+
+    .contactarnos {
+        font-size: 17px;
+        text-overflow: var(12);
+        margin-left: 100px;
+
+    }
+
+
+    .iconos {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .imagem {
+        width: 50px;
+    }
+
+    .dato1 {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .dato2 {
+        margin-top: -40px;
+        font-size: 14px;
+    }
+
+    .dato3 {
+        margin-top: -50px;
+        font-size: 14px;
+    }
+
+    .dato4 {
+        margin-top: -50px;
+        font-size: 14px;
+    }
+
+    .maps {
+        margin-top: 750px;
+        margin-left: -240px;
+    }
+
+    .cuatro {
+        margin-top: 20px;
+
+    }
+
+
+    /* Tecnicas */
+
+    .cinco {
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+
+    .card {
+        margin-left: 70px;
+        margin-top: 70px;
+        width: 220px;
+    }
+
+    .card img {
+        width: 220px;
+        height: 200px;
+    }
+
+    /* Comprar */
+    .Credito {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 16px;
+    }
+
+
+
+    .tit7 {
+        font-size: 20px;
+        margin-right: 922px;
+        margin-top: 90px;
+    }
+
+    .seis {
+        margin-left: -80px;
+    }
+
+    .tipos {
+        margin-top: 920px;
+        margin-left: -600px;
+    }
+
+    .tar {
+        width: 300px;
+        height: 100px;
+        margin-top: 980px;
+        margin-left: -200px;
+    }
+
+    .tit2 {
+        margin-left: -920px;
+        margin-top: 860px;
+    }
+
+    .ftoBank {
+        margin-top: 1000px;
+        margin-left: -900px;
+    }
+
+    .bank {
+        margin-top: 930px;
+        margin-left: -1250px;
+    }
+}
+
+/*# sourceMappingURL=style.css.map */
